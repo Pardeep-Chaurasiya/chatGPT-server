@@ -23,7 +23,7 @@ app.listen("3000", ()=>console.log("listening on port 3080"))
 
 
 app.get("/", (req, res) => {
-    res.send("Hello World!")
+    res.send("<h1>Advance ChatGPT Server</h1>")
 })
 
 
